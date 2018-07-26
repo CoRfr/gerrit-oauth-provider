@@ -22,6 +22,10 @@ appended with provider suffix: e.g. `-google-oauth` or `-github-oauth`:
     client-id = "<client-id>"
     client-secret = "<client-secret>"
 
+  [plugin "@PLUGIN@-av-oauth"]
+    client-id = "<client-id>"
+    client-secret = "<client-secret>"
+
   [plugin "@PLUGIN@-cas-oauth"]
     root-url = "<cas url>"
     client-id = "<client-id>"
