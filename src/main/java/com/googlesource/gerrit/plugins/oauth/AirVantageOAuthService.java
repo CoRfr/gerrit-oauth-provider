@@ -48,7 +48,7 @@ public class AirVantageOAuthService implements OAuthServiceProvider {
   static final String CONFIG_SUFFIX = "-airvantage-oauth";
   private static final String AV_PROVIDER_PREFIX = "airvantage-oauth:";
   private static final String PROTECTED_RESOURCE_URL =
-      "https://eu.airvantage.net/api/v1/users/current";
+      "https://eu.airvantage.net/api/oauth/userinfo";
   private final OAuthService service;
 
   @Inject

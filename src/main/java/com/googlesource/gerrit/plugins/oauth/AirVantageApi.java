@@ -26,7 +26,7 @@ import org.scribe.oauth.OAuthService;
 public class AirVantageApi extends DefaultApi20 {
 
   private static final String AUTHORIZE_URL =
-      "https://eu.airvantage.net/api/oauth/authorize?client_id=%s&response_type=code";
+      "https://eu.airvantage.net/api/oauth/authorize?client_id=%s&response_type=code&scope=openid email profile";
   private static final String ACCESS_TOKEN_ENDPOINT = "https://eu.airvantage.net/api/oauth/token";
 
   @Override
